@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home_page {
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(rgba(80, 85, 90, 0.3), rgba(80, 85, 90, 0.3)), url(./images/h1_hero1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.nav {
+    background-color: white;
+    height: 80px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: auto;
+    width: auto;
+    margin: 14px 30px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+li {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px; /* Add some padding to give space for the border animation */
+}
+li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px; /* Adjust the thickness of the border */
+    width: 0;
+    background-color: orange;
+    transition:  0.5s;
+}
+li:hover::before {
+    width: 100%;
+}
+.nav button {
+    height: 50px;
+    width: 200px;
+    margin-right: 50px;
+    font-size: 18px;
+    background-color: white;
+    border: 0.5px solid orange;
+    color: orange;
+}
+.nav button:hover {
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+.h-p {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.h-p h1 {
+    font-weight: 500;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 10px;
+}
+.h-p p {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    word-spacing: 5px;
+}
+.btn {
+    height: 50px;
+    width: 40%;
+    margin: 35px auto;
+    border: none;
+    background-color: orange;
+    font-size: 14px;
+}
+.btn:hover {
+    background-color: orangered;
+    box-shadow: 0px 0px 9px 9px orangered;
+    transition: 0.7s;
+    color: white;
+}

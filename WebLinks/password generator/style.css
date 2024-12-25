@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+
+}
+.container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #FFFBE6 ;
+  box-shadow: 0 0 3px 6px white;
+}
+.container h1{
+    color:rgba(0, 9, 0, .9)
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.input-row i{
+    position: absolute;
+    left:92%;
+    font-size: 22px;
+    cursor: pointer;
+    color: rgba(0, 9, 0, .9);
+
+}
+.container .passwordShow {
+  margin-block: 16px;
+  padding: 12px 24px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 100%;
+  color:rgba(0, 9, 0, .9); ;
+}
+.rangeBox {
+  width: 50%;
+  margin-block: 8px;
+}
+.container .row , p {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 8px;
+  color:rgba(0, 9, 0, .9); 
+}
+.row input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.genbtn {
+  padding: 12px 24px;
+  background-color:rgba(0, 9, 0, .9);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-block: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.genbtn:hover {
+    background-color: rgba(0, 9, 0, .8);
+}

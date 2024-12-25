@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./images/image.png.png" type="image/x-icon">
+    <link  rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!----------------- NAVBAR ----------------->
+    <nav class="navbar">
+      <div class="navlogo">
+        <a href="#home">&lt;Ab<span>Rehman/&gt;</span></a>
+      </div>
+      <i class="fas fa-bars burger" id="menu-bar"></i>
+      <ul class="navItems" id="navItems">
+        <li><a href="#home" class="navlinks">Home</a></li>
+        <li><a href="#about" class="navlinks" >About</a></li>
+        <li><a href="#portfolio" class="navlinks">Portfolio</a></li>
+        <li><a href="#contact" class="navlinks">Contact</a></li>
+      </ul>
+    </nav>
+    <!----------- HOME SECTION ----------------- -->
+    <section class="home" id="home">
+      <div class="home-content" data-aos="fade-right">
+        <h2>Hello, It's me Abdul Rehman.</h2>
+        <h4>I'm a <span id="typeWritter"></span></h4>
+        <a href="#about"><button>About me</button></a>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/abdul-rehman-57a166320/" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a>
+          <a href="https://github.com/dev-Abdul-Rehman" target="_blank"><i class="fa-brands fa-github github" ></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100018656962638" target="_blank" ><i class="fa-brands fa-facebook facebook"></i></a>
+        </div>
+      </div>
+      <div class="home-image" data-aos="fade-left">
+        <img src="./images/image.png.png" alt="">
+      </div>
+      <div class="arrow-bottom-to-home">
+        <a href="#home">
+          <i class="fa-solid fa-arrow-up" id="arrow"></i>
+        </a>
+      </div>
+    </section>
+    <!----------- ABOUT SECTION ----------------- -->
+<section class="about" id="about">
+
+  <h2 data-aos="fade-up">About Me</h2>
+  <p data-aos="fade-up">I am a passionate Frontend website developer with skills in <strong>HTML , CSS , JavaScript , React , and Tailwind CSS</strong>. I specialize in creating visually appealing, responsive websites and dynamic web applications. I am constantly learning and improving my skills to stay updated with the latest web development trends. With a strong focus on clean code and seamless user experiences, I aim to deliver high-quality projects that meet both client and user needs.</p>
+
+    <div class="myServices">
+      <div class="card card-1 " data-aos="flip-up">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>I'm a frontend web developer with expertise in HTML, CSS, JavaScript, and frameworks like React. I create modern, responsive, and user-friendly websites tailored to your needs.</p>
+      </div>
+      <div class="card card-2" data-aos="flip-up">
+        <i class="fas fa-code"></i>
+        <h3>Responsive Website</h3>
+        <p>I'm specializing in creating responsive and visually appealing websites. Using HTML, CSS, JavaScript, and frameworks like React, I ensure your site looks great and works seamlessly on all devices. </p>
+      </div>
+      <div class="card card-3" data-aos="flip-up">
+        <i class="fas fa-code"></i>
+        <h3>Web Design</h3>
+        <p>I'm a beginner web designer with some experience in creating simple, clean, and responsive website layouts. </p>
+      </div>
+      
+    </div>
+    <a href="#contact" data-aos="fade-up"><button>Hire me</button></a>
+  </div>
+</section>
+<!----------------- PORTFOLIO SECTION ------------>
+<section class="portfolio" id="portfolio">
+  <h2 data-aos="fade-up">My <span>Portfolio</span></h2>
+  <div class="portfolio-gallery">
+    <div class="card card-1" data-aos="zoom-in-up">
+      <img src="./images/landing page.png" alt="">
+      <h3>Landing page</h3>
+      <p>A visually appealing landing page built with HTML and CSS. It is designed to capture user attention and provide essential information in a clean layout</p>
+      <a href="./WebLinks/landing page/index.html" target="_blank"><button>View Project</button></a>
+    </div>
+    
+    <div class="card card-2" data-aos="zoom-in-up">
+      <img src="./images/uni web.png" alt="">
+      <h3>University Website</h3>
+      <p> Built using HTML and CSS, it offers a clean, user-friendly interface for easy navigation.</p>
+      <a href="./WebLinks/uni web/website.html" target="_blank"><button>View Project</button></a>
+    </div>
+    <div class="card card-3" data-aos="zoom-in-up">
+      <img src="./images/quiz app.png" alt="">
+      <h3>Quiz App</h3>
+      <p>This is an quiz app built using HTML, CSS, and JavaScript. It allows users to test their knowledge with multiple-choice questions.</p>
+      <a href="./WebLinks/quizApp/index.html" target="_blank"><button>View Project</button></a>
+    </div>
+    <div class="card card-4" data-aos="zoom-in-up">
+      <img src="./images/calculator.png" alt="">
+      <h3>calculator</h3>
+      <p>A simple calculator app built with HTML, CSS, and JavaScript. It performs basic arithmetic operations like +,-,/,*</p>
+      <a href="./WebLinks/calculator/cal.html" target="_blank"><button>View Project</button></a>
+    </div>
+    
+    <div class="card card-5" data-aos="zoom-in-up">
+      <img src="./images/stopwatch.png" alt="">
+      <h3>Stop Watch</h3>
+      <p>Build stop watch using HTML, CSS and JAVASCRIPT.This stop watch is fully responsive and user-friendly</p>
+      <a href="./webLinks/stopwatch/watch.html" target="_blank"><button>View Project</button></a>
+    </div>
+    <div class="card card-6" data-aos="zoom-in-up">
+      <img src="./images/password generator.png" alt="">
+      <h3>Password Generator</h3>
+      <p>A password generator app built with HTML, CSS, and JavaScript. It generates strong and secure passwords.</p>
+      <a href="./WebLinks/password generator/index.html" target="_blank"><button>View Project</button></a>
+    </div>
+  </div>
+</section>
+<!--------------- CONTACT SECTION ------------------>
+ <section class="contact" id="contact">
+<h2 data-aos="fade-up">Contact Me</h2>
+<div class="form">
+  <form action="https://script.google.com/macros/s/AKfycbysHoqocmdQhkuFq3mfWFuYGHvMAMIxb0iOxUDM467B4O06UrG3NCFnVv1TYu4uruM/exec" method="post" id="formData">
+    <input type="text" name="name" id="name" placeholder="Name" required data-aos="fade-up">
+    <br>
+    <input type="email" name="email" id="email" placeholder="Email" required data-aos="fade-up">
+    <br>
+    <textarea placeholder="Message" id="message" name="message" rows="10" required data-aos="fade-up"></textarea>
+    <br>
+    <a href=""><button id="contact-btn">Send Message</button></a>
+    <p>I'll get back to you within 24 hours.</p>
+  </form>
+</div>
+ </section>
+ <!------------ FOOTER SECTION ------------->
+ <footer>
+  <p>&copy; 2024 by Abdul Rehman. All rights reserved.</p>
+   <div class="social-icons social-icons-footer">
+          <a href="https://www.linkedin.com/in/abdul-rehman-57a166320/" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a>
+          <a href="https://github.com/dev-Abdul-Rehman" target="_blank"><i class="fa-brands fa-github github"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100018656962638" target="_blank"><i class="fa-brands fa-facebook facebook"></i></a>
+        </div>
+ </footer>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script src="script.js"></script>
+  </body>
+</html>

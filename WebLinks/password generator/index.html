@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div class="input-row">
+        <input class="passwordShow" id="showinputResult" type="text" disabled  placeholder="Click button 'Generate Password'"/>
+        <i class="fa-solid fa-copy" title="copy password" id="copyIcon"></i>
+      </div>
+      <input class="rangeBox" id="rangeBox" type="range" min="1" max="12" value="8" />
+      <div class="row">
+        <p>Password Strength</p>
+        <span id="showsliderValue"></span>
+      </div>
+      <div class="row">
+        <label for="lowercase">Include Lowercase</label>
+        <input type="checkbox" id="lowercase"  checked/>
+      </div>
+      <div class="row">
+        <label for="uppercase">Include Uppercase</label>
+        <input type="checkbox" id="uppercase" checked />
+      </div>
+      <div class="row">
+        <label for="Symbols">Include Symbols</label>
+        <input type="checkbox" id="Symbols" checked />
+      </div>
+      <div class="row">
+        <label for="numbers">Include numbers</label>
+        <input type="checkbox" id="numbers"  checked />
+      </div>
+      <button class="genbtn" id="genbtn" type="button">Generate Password</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
